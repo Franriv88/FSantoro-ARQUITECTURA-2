@@ -1,0 +1,28 @@
+.nav_bar{
+    justify-content: center;
+    padding:0;
+    background-color: purple;
+    
+}
+
+.logo{
+    
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+}
+
+footer{
+    background-color: black;
+    width: vw;
+    height: wh;
+    padding: 10px
+    
+    
+}
+.redes_container ul li{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center; /*esto no me está modificando nada*/
+  
+}
