@@ -18,3 +18,29 @@
 .nav_bar li{
     margin: 0px 10px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba abajo y el 2do es drecha iz*/
 }
+
+
+.btn-primary{
+    background: black;
+    text-decoration: none; /*elimina el subrayado que nos hace la etiqueta <a></a> */
+    width: 55px;
+    height: 55px;
+    line-height: 35px; /* centramos el ícono en el boton */
+    text-align: center;
+    border-radius: 50%; /*redondeamos los bordes del boton */
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.5); /*efecto de sombra*/
+    transition: all 500ms;
+    border-color: black;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: right;
+}
+
+.img_container{
+    display: flex;
+    flex-direction: row;
+    
+
+}
