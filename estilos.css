@@ -46,6 +46,15 @@
     flex-direction: row;
 }
 
+
 .redes_container{
+    display:flex;
+    justify-content: center;
     background-color: black;
+}
+
+.redes_container ul{
+    list-style: none;
+    display: flex;
+    padding: 15px;
 }
