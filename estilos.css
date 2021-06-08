@@ -35,12 +35,15 @@
 
 .btn_container{
     display: flex;
-    justify-content: right;
+    justify-content:right;
+    position: fixed;
 }
 
 .img_container{
     display: flex;
     flex-direction: row;
-    
+}
 
+.redes_container{
+    background-color: black;
 }
