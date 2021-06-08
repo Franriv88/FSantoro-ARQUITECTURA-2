@@ -16,7 +16,7 @@
 }
 
 .nav_bar li{
-    margin: 0px 10px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba abajo y el 2do es drecha iz*/
+    margin: 0px 10px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba-abajo y el 2do es drecha-iz*/
 }
 
 
@@ -41,6 +41,32 @@
 .img_container{
     display: flex;
     flex-direction: row;
-    
+}
 
+.redes_container{
+    display: flex-end;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100vw;
+    height:10vh;
+}
+
+.redes_container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.redes_container li{
+    margin: 15px 10px; /*cenramos los iconos de redes sociales 15px arriba-abajo y 10px iz-derech
+    
+}
+
+.redes_container a{
+    list-style: none;
+    display: flex;
+    
 }
