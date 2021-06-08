@@ -35,7 +35,10 @@
 
 .btn_container{
     display: flex;
-    justify-content: right;
+    justify-content:right;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 .img_container{
@@ -43,6 +46,7 @@
     flex-direction: row;
 }
 
+<<<<<<< HEAD
 .redes_container{
     display: flex-end;
     background-color: black;
@@ -69,4 +73,17 @@
     list-style: none;
     display: flex;
     
+=======
+
+.redes_container{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.redes_container ul{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+>>>>>>> cef88206076c93ef3fa7026493859d519fb9674c
 }
