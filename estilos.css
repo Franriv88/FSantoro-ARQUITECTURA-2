@@ -8,7 +8,7 @@
 
 .nav_bar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding:0;
     background-color: black; 
 }
@@ -24,7 +24,8 @@
 }
 
 .nav_bar li{
-    margin: 0px 10px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba-abajo y el 2do es drecha-iz*/
+    margin: 10px 30px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba-abajo y el 2do es drecha-iz*/
+    
 }
 
 
@@ -96,4 +97,5 @@
 /*sección Ideas*/
 .ideas_pic{
     display:flex;
+    justify-content: space-evenly;
 }
