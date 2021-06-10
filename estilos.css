@@ -1,9 +1,8 @@
 .nav_bar img{
    display: flex;
    justify-content: left; 
-   bottom: 20px;
-    left: 20px;
-
+   padding:5px;
+   margin-top: 5px;
 }
 
 .nav_bar{
@@ -24,10 +23,13 @@
 }
 
 .nav_bar li{
-    margin: 10px 30px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba-abajo y el 2do es drecha-iz*/
+    margin: 20px 30px 5px 0px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba-abajo y el 2do es drecha-iz*/
     
 }
 
+h1{
+  color:lightgrey;
+}
 
 .btn-primary{
     background: black;
@@ -39,7 +41,7 @@
     border-radius: 50%; /*redondeamos los bordes del boton */
     box-shadow: 0px 1px 10px rgba(0,0,0,0.5); /*efecto de sombra*/
     transition: all 500ms;
-    border-color: black;
+    border-color: black; /*esto es el bode del boton*/
 }
 
 .btn_container{
