@@ -8,7 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     width:100%;
-    height: 90px;
+    height: 90%;
     margin: auto;
     float: left;
     text-align: center;
@@ -18,8 +18,9 @@ header{
 .nav_img{
     width: 10%;
     height: 90px;
-    background-color: white;
+    background-color:white;
     float:left;
+    
 }
 .nav_bar img{
     padding:5px;
@@ -36,10 +37,11 @@ header{
 .nav_bar a{
     text-decoration: none; /*esto borra el subrayado*/
     font-size: 170%;
-    padding-top:30px;
-    padding-left: 50px;
+    padding: 30px 50px;
+    display: block;
+    justify-content: space-evenly;
     color:gray;
-    background-color: white;
+    background-color:white;
 }
 
 .nav_bar ul{
@@ -48,7 +50,7 @@ header{
     list-style: none;
     display: flex; 
     justify-content: center;
-    background-color: whiteblack; 
+    background-color: white; 
 }
 
 h1{
