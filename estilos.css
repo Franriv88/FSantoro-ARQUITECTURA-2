@@ -35,7 +35,7 @@ header{
 
 .nav_bar a{
     text-decoration: none; /*esto borra el subrayado*/
-    font-size: 200%;
+    font-size: 150%;
     padding-top:20px;
     padding-left: 45px;
     color:lightgray;
@@ -128,3 +128,17 @@ h1{
     display:flex;
     justify-content: space-evenly;
 }
+
+.carousel-item h5{
+    display: flex;
+    color:whitesmoke;
+    text-align: left;
+    background-color: pink;
+}
+
+.carousel-item p{
+    color:grey;
+    background-color: hotpink;
+}
+
+
