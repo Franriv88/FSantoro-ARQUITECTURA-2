@@ -3,30 +3,36 @@
     display: flex;
     justify-content: space-between;
     padding:0;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0); 
     justify-content: center;
 }
 
 .nav_bar a{
     text-decoration: none; /*esto borra el subrayado*/
     font-size: 120%;
-    color:black;
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav_bar ul{
     list-style: none;
-    display: flex;
-    
+    display: flex;  
 }
 
 .nav_bar li{
-    margin: 20px 30px 5px 30px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba-abajo y el 2do es drecha-iz*/
-    
+    margin: 20px 30px 5px 30px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba-abajo y el 2do es drecha-iz*/ 
 }
 
 .nav_bar img{
     display: flex;
-    justify-content: left; 
+    padding:5px;
+    margin-top: 5px;
+    margin-right: 100%;
+ }
+
+ .nav_img img{
+    display: flex;
+    flex-direction: row-reverse; 
     padding:5px;
     margin-top: 5px;
  }
