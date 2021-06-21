@@ -9,12 +9,13 @@
     display: flex;
     justify-content: space-between;
     padding:0;
-    background-color: black; 
+    background-color: rgb(255, 255, 255); 
 }
 
 .nav_bar a{
     text-decoration: none; /*esto borra el subrayado*/
-    color:#fff;
+    font-size: 120%;
+    color:black;
 }
 
 .nav_bar ul{
@@ -23,7 +24,7 @@
 }
 
 .nav_bar li{
-    margin: 20px 30px 5px 0px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba-abajo y el 2do es drecha-iz*/
+    margin: 20px 30px 5px 30px; /*si pones 1 valor, es el mismo para los 4 puntos, si pones 2 valores, el primero es arriba-abajo y el 2do es drecha-iz*/
     
 }
 
@@ -55,6 +56,9 @@ h1{
 .img_container{
     display: flex;
     flex-direction: row;
+    height: auto;
+    width: auto;
+    
 }
 
 .redes_container{
