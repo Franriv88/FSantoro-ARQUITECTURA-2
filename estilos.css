@@ -1,10 +1,14 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding:1px;
+    
 }
-
+body{
+    overflow-x: hidden;
+}
 body::-webkit-scrollbar {
     width: 10px;
+    
 }
 body::-webkit-scrollbar-thumb{
     background: burlywood;
@@ -87,11 +91,11 @@ h1{
     box-shadow: 0px 1px 10px rgba(0,0,0,0.5); /*efecto de sombra*/
     transition: all 500ms;
     border-color: black; /*esto es el bode del boton*/
+    
 }
 
-.btn-primary::webkit-transition{
-    -o-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    -moz-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+.btn-primary{
+  -o-transition:ease 5s;
 }
 
 .btn_container{
