@@ -80,7 +80,8 @@ h1{
     padding:20px;
     color:lightgrey;
 }
-
+ 
+/*logo central del index*/
 .logo{
     display: flex;
     justify-content: center; 
@@ -92,18 +93,26 @@ h1{
     width: 55px;
     height: 55px;
     line-height: 35px; /* centramos el ícono en el boton */
-    text-align: center;
     border-radius: 50%; /*redondeamos los bordes del boton */
     box-shadow: 0px 1px 10px rgba(0,0,0,0.5); /*efecto de sombra*/
     transition: all 500ms;
     border-color: black; /*esto es el bode del boton*/
+    background-image: url("./iconos/modern-houseWhite.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     
 }
-/*tratando de cambiar el color al boton al pasar el mouse*/
-.btn-primary{
-  transition: all 500ms ease;
-  
 
+/*cambia el color al boton y su icono al pasar el mouse*/
+.btn-primary:hover{
+    background-color: white;
+    background-image: url("./iconos/modern-houseBlack.png");
+    background-position-x: center;
+    background-position-y: center;
+    line-height: 35px;
+    background-repeat: no-repeat;
+    border-color: white;
 }
 
 .btn_container{ /*recordar usar guion alto */
