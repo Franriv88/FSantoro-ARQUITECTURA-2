@@ -36,7 +36,9 @@ body::-webkit-scrollbar-thumb{
     width: 10%;
     height: 90px;
     background-color:white;
-    float:left;
+    position: absolute;
+    left: 0px;
+    align-self: flex-start;
     z-index: 1;
     
 }
@@ -45,6 +47,9 @@ body::-webkit-scrollbar-thumb{
     margin: 5px 5px;
     box-sizing: border-box;
     background-color: white;
+    position: absolute;
+    left: 0px;
+    align-self: flex-start;
  }
 
  .nav_bar li{
@@ -68,7 +73,7 @@ body::-webkit-scrollbar-thumb{
     list-style: none;
     display: flex; 
     justify-content: center;
-    background-color: red; 
+    background-color: whites; 
 }
 
 h1{
