@@ -199,6 +199,7 @@ h2{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
+    
 }
 
 .dark-mode-button:hover{
@@ -209,6 +210,11 @@ h2{
     background-position-y: center;
     background-repeat: no-repeat;
     border-color: white;
+    
+}
+
+#dark-mode{  /*con display:none; ocultamos el check box usando el id="dark-mode" y usando el # obviamente en el CSS*/
+    display: none;
 }
 
 .checkbox{
