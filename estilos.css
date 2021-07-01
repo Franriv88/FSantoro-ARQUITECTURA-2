@@ -73,7 +73,6 @@ body::-webkit-scrollbar-thumb{
     list-style: none;
     display: flex; 
     justify-content: center;
-    background-color: whites; 
 }
 
 h1{
@@ -127,11 +126,8 @@ h1{
 
 
 .img_container{
-    display: flex;
-    flex-direction: row;
     height: 100%;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .redes_container{
