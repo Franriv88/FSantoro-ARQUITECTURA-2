@@ -190,21 +190,8 @@ h1{
     color: whitesmoke;
     background-color:black;
 }
-/*
-.row{
-    overflow: hidden;
-} */
-
-article{
-    column-count: 4;
-}
-
-/*seccion About*/
-.img_about{
-    width: 100%;
-    
-}
 
 h2{
     font-size: 150%;
 }
+
