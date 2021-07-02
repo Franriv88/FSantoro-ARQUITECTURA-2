@@ -105,8 +105,8 @@ h1{
 .btn-primary:hover{
     background-color: white;
     background-image: url("./iconos/modern-houseBlack.png");
-    background-position-x: center;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+    background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
     border-color: white;
@@ -117,7 +117,7 @@ h1{
     justify-content:right;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 30px;
     z-index: 1;
 }
 
@@ -189,27 +189,29 @@ h2{
 
 /*Dark mode*/
 .dark-mode-button{
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    position: fixed;
+    bottom:75px;
+    right: 10px;
     padding: 20px;
     border-radius: 100%;
     background: black;
-    background-image: url("./iconos/luna.png");
-    background-repeat: no-repeat;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+    background-image: url("./iconos/luna.png"); 
     background-position-x: center;
     background-position-y: center;
+    background-repeat: no-repeat;
+    z-index: 1;
     
 }
 
-.dark-mode-button:hover{
+.dark-mode-button:focus{
     background: white;
     background-image: url("./iconos/sol.png");
     box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
-    border-color: white;
+    
     
 }
 
