@@ -22,7 +22,7 @@ body::-webkit-scrollbar-thumb{
     border-radius: 5px;
 }
 
-.nav_bar{
+.nav-bar{
     display: flex;
     justify-content: center;
     height: 90%;
@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb{
     background-color:white; 
     
 }
-.nav_img{
+.nav-img{
     width: 10%;
     height: 90px;
     background-color:white;
@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb{
     z-index: 1;
     
 }
-.nav_bar img{
+.nav-bar img{
     padding:5px;
     margin: 5px 5px;
     box-sizing: border-box;
@@ -50,12 +50,12 @@ body::-webkit-scrollbar-thumb{
     align-self: flex-start;
  }
 
- .nav_bar li{
+ .nav-bar li{
     display: flex;
 
 }
 
-.nav_bar a{
+.nav-bar a{
     text-decoration: none; /*esto borra el subrayado*/
     font-size: 170%;
     padding: 30px 50px;
@@ -65,12 +65,17 @@ body::-webkit-scrollbar-thumb{
     background-color:white;
 }
 
-.nav_bar ul{
+.nav-bar ul{
     width: 100vw;
     height:90px;
     list-style: none;
     display: flex; 
     justify-content: center;
+}
+
+.nav-bar img{
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+
 }
 
 h1{
@@ -93,7 +98,7 @@ h1{
     border-radius: 50%; /*redondeamos los bordes del boton */
     box-shadow: 0px 1px 10px rgba(0,0,0,0.5); /*efecto de sombra*/
     transition: all 500ms;
-    border-color: black; /*esto es el bode del boton*/
+    border-color: black; /*esto es el borde del boton*/
     background-image: url("./iconos/modern-houseWhite.png");
     background-repeat: no-repeat;
     background-position-x: center;
@@ -112,7 +117,7 @@ h1{
     border-color: white;
 }
 
-.btn_container{ /*recordar usar guion alto */
+.btn-container{ /*recordar usar guion alto */
     display: flex;
     justify-content:right;
     position: fixed;
@@ -121,12 +126,12 @@ h1{
     z-index: 1;
 }
 
-.img_container{
+.img-container{
     height: 100%;
     width: 100%;  
 }
 
-.redes_container{
+.redes-container{
     display: flex-end;
     background-color: black;
     align-items: center;
@@ -136,24 +141,24 @@ h1{
     height:10vh;
 }
 
-.redes_container ul{
+.redes-container ul{
     list-style: none;
     display: flex;
     justify-content: center;
     padding: 15px 0px 0px 0px;
 }
 
-.redes_container li{
+.redes-container li{
     margin: 15px 10px; /*centramos los iconos de redes sociales 15px arriba-abajo y 10px iz-derech*/
     
 }
 
-.redes_container a{
+.redes-container a{
     list-style: none;
     display: flex;
 }
 
-.redes_container {
+.redes-container {
     display:flex;
     justify-content: center;
     background-color: black;
@@ -161,13 +166,13 @@ h1{
 
 
 /*sección Ideas*/
-.ideas_pic{
+.ideas-pic{
     display:flex;
     justify-content: space-evenly;
     
 }
 
-.ideas_img img{
+.ideas-img img{
     box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
     cursor:pointer;
 }
@@ -204,7 +209,7 @@ h2{
     
 }
 
-.dark-mode-button:focus{
+.dark-mode-button:hover{
     background: white;
     background-image: url("./iconos/sol.png");
     box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
@@ -229,6 +234,10 @@ html.dark-mode{
 
 html.dark-mode img{
     filter: invert(100%);
+}
+
+html.dark-mode .nav-bar img{
+    filter: none;
 }
 
 html.dark-mode footer{
