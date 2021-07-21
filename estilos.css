@@ -21,7 +21,7 @@ body::-webkit-scrollbar-thumb{
     background: burlywood;
     border-radius: 5px;
 }
-
+/*barra de navegación*/
 .nav-bar{
     display: flex;
     justify-content: center;
@@ -82,6 +82,24 @@ h1{
     padding:20px;
     color:lightgrey;
 }
+/*menú hamburguesa*/
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+}
+
+header label:hover{
+    cursor: pointer;
+}
+
+
+
  
 /*logo central del index*/
 .logo{
@@ -136,10 +154,48 @@ h1{
     background-color: black;
     align-items: center;
     justify-content: center;
-    bottom: 0;
+    bottom: 0px;
     width: 100vw;
     height:10vh;
 }
+@media (max-width: 786px){
+    header label{
+        display: block;
+        margin-top: 1px;
+        height: 10px;
+    }
+
+    .nav-img{
+        margin-left: -100px;
+    }
+
+    .nav-bar{
+        position: absolute;
+        width:40%;
+        height: 104px;
+        margin-top: -100%;
+        transition: all 0.5s;
+        background-color: transparent;
+    }
+
+    .nav-bar ul{
+        flex-direction: column;
+        
+    }
+    
+    .nav-bar li{
+        border-top: 1px;
+        
+    }
+
+    .nav-bar a{
+        background-color: transparent;
+    }
+
+    #btn-menu:checked ~ .nav-bar{ /*cuando esté checked va a buscar la clase nav-bar*/
+        margin: 170px -50px;
+    }
+
 
 .redes-container ul{
     list-style: none;
@@ -236,12 +292,10 @@ html.dark-mode img{
 }
 
 html.dark-mode .nav-bar img{
-    filter: none;
+    filter: none; /*otra forma de hacerlo*/
 }
 
 html.dark-mode footer{
     filter: invert(100%);
 }
-
-
 
