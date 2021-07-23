@@ -158,6 +158,7 @@ header label:hover{
     width: 100vw;
     height:10vh;
 }
+/*media query*/
 @media (max-width: 786px){
     header label{
         display: block;
@@ -196,9 +197,9 @@ header label:hover{
     }
 
     #btn-menu:checked ~ .nav-bar{ /*cuando esté checked va a buscar la clase nav-bar*/
-        margin: 170px -50px;
+        margin: 170px -5%;
     }
-
+}
 
 .redes-container ul{
     list-style: none;
